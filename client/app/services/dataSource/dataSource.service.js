@@ -40,16 +40,19 @@ export default /*@ngInject*/ class dataSourceService {
     [
       {
         headerText: 'Stay',
+        section: 1,
         selected: false,
         data: this.forecastsData.stay
       },
       {
         headerText: 'Repatriate',
+        section: 2,
         selected: true,
         data: this.forecastsData.stay//repatriate
       },
       {
         headerText: 'Transfer',
+        section: 3,
         selected: false,
         data: this.forecastsData.stay//transfer
       },

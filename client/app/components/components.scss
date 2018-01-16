@@ -15,3 +15,36 @@ body {
    // scales 1rem to equal 10px.
    font: 62.5% 'Roboto', sans-serif;
 }
+.header-block {
+  height: 30px;
+  position: relative;
+}
+
+.header-text {
+  float: left;
+  color: #535353;
+  font-size: smaller;
+  font-weight: bold;
+}
+
+.right {
+  float: right;
+}
+
+.red {
+  color: #d7640a;
+}
+
+.gray {
+  color: #5db4b4;
+}
+
+.darker-gray {
+  color: #585858;
+}
+
+.link {
+  color: #e4ab7e;
+  text-decoration: underline;
+  cursor: pointer;
+}

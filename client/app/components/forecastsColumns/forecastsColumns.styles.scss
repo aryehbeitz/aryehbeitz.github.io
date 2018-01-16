@@ -14,6 +14,7 @@
     background-color: #e3e3e3;
   }
 }
+
 .col-body {
   height: 500px;
   background-color: #f2f2f2;
@@ -25,4 +26,39 @@
       width: 30px;
     }
   }
+}
+
+.dividing-line {
+  margin: 15px;
+  border-top: #c3c3c3 1px solid;
+}
+
+.dotted-dividing-line {
+  border-top: #dadada 1px dotted;
+  display: inline-flex;
+  width: 100%;
+}
+
+.section-two {
+  height: 300px;
+  background-color: #f2f2f2;
+  .secondary-item {
+    width: 100%;
+    margin-bottom: 15px;
+    margin-top: 15px;
+
+    .item-right {
+      margin-top: 10px;
+      float: right;
+      text-align: right;
+      width: 30%;
+    }
+    .item-left {
+      margin-top: 10px;
+      float: left;
+      text-align: left;
+      width: 70%;
+    }
+  }
+
 }
