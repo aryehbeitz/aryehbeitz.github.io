@@ -1,0 +1,16 @@
+<div class="col-header"
+  ng-class="$ctrl.forecastsColumnsData.selected ? 'selected-header' : 'not-selected-header'">
+  {{$ctrl.forecastsColumnsData.headerText}}
+</div>
+<div class="col-body">
+  <div class="day-forecast-table">
+    <div class="table-row">
+      <div class="cols header-text">day</div>
+      <div class="cols"></div>
+      <div class="cols header-text">forecast</div>
+    </div>
+    <div ng-repeat="forecast in $ctrl.forecastsColumnsData.data">
+      <forecasts-component forecast-data="forecast"></forecasts-component>
+    </div>
+  </div>
+</div>

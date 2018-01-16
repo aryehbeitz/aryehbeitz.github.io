@@ -1,0 +1,16 @@
+<div class="table-row">
+  <div class="cols day">
+    <span class="forecast-day" ng-style="{'color': $ctrl.forecastData.daysColor}">{{$ctrl.forecastData.days}}</span>
+  </div>
+  <div class="cols">
+    <div class="col-bar" ng-style="{'background-color': $ctrl.forecastData.barColor}"></div>
+    <div class="main">
+      <div class="main-text">
+        {{$ctrl.forecastData.mainText}}
+      </div>
+      <div class="sub">
+        {{$ctrl.forecastData.subText}}
+      </div>
+    </div>
+  </div>
+</div>

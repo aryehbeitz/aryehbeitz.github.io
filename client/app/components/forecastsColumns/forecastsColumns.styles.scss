@@ -1,0 +1,28 @@
+.col-header {
+  font-weight: bold;
+  width: 100%;
+  height: 90px;
+  text-align: center;
+  font-size: 26px;
+  padding-top:20px;
+  &.selected-header {
+    color: #fff;
+    background-color: #5ab2b2;
+  }
+  &.not-selected-header {
+    color: #000;
+    background-color: #e3e3e3;
+  }
+}
+.col-body {
+  height: 500px;
+  background-color: #f2f2f2;
+  .day-forecast-table {
+    .cols {
+      padding: 10px;
+    }
+    .day {
+      width: 30px;
+    }
+  }
+}

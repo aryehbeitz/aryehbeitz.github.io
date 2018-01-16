@@ -1,35 +1,6 @@
 <div class="container">
-  <div class="col-lg-4">
-    <div class="col-header first">
-      Stay
-    </div>
-    <div class="col-body">
-      <div class="day-forecast-table">
-        <div class="table-row">
-          <div class="cols header-text">day</div>
-          <div class="cols"></div>
-          <div class="cols header-text">forecast</div>
-        </div>
-        <div ng-repeat="forecast in $ctrl.forecastsData">
-          <forecasts-component forecast-data="forecast"></forecasts-component>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="col-lg-4">
-    <div class="col-header second">
-      Repatriate
-    </div>
-    <div class="col-body">
-      col body
-    </div>
-  </div>
-  <div class="col-lg-4">
-    <div class="col-header third">
-      Transfer
-    </div>
-    <div class="col-body">
-      col body
-    </div>
+  <div class="col-lg-4" ng-repeat="col in $ctrl.forecastsData">
+    <forecasts-columns-component forecasts-columns-data="col"></forecasts-columns-component>
+    {{col}}
   </div>
 </div>
