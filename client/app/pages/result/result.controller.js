@@ -10,4 +10,8 @@ export default /*@ngInject*/ class ResultController {
     .then((response) => this.forecastsData = response.data || response.forecasts)
     .catch((error) => console.log(error));
   }
+
+  loadImage(name) {
+    return require(`../../../assets/images/${name}`);
+  }
 }
