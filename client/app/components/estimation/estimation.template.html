@@ -1,0 +1,23 @@
+<div class="spacing">
+  <div class="smaller center">
+    Estimate:
+  </div>
+  <div class="newrow center">
+    <div class="range-text">
+      {{$ctrl.estimationData.lower}} - {{$ctrl.estimationData.upper}}
+      <span ng-if="$ctrl.estimationData.alertIcon">
+        <img class="alert-position" ng-src="{{$ctrl.alertIcon()}}">
+      </span>
+    </div>
+  </div>
+  <div class="newrow">
+    <button class="btn estimation-button center" ng-click="$ctrl.openModal($ctrl.estimationData.buttonText + ' clicked')">
+      {{$ctrl.estimationData.buttonText}}
+    </button>
+  </div>
+  <div class="newrow">
+    <div ng-repeat="checkbox in $ctrl.estimationData.checkboxes">
+      <input type="checkbox" ng-checked="checkbox.checked">{{checkbox.text}}
+    </div>
+  </div>
+</div>

@@ -16,7 +16,7 @@ body {
    font: 62.5% 'Roboto', sans-serif;
 }
 .header-block {
-  height: 30px;
+  height: 12px;
   position: relative;
 }
 
@@ -29,6 +29,12 @@ body {
 
 .right {
   float: right;
+  text-align: right;
+}
+
+.center {
+  float: unset;
+  text-align: center;
 }
 
 .red {
@@ -47,4 +53,28 @@ body {
   color: #e4ab7e;
   text-decoration: underline;
   cursor: pointer;
+}
+
+.sub-head {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.alert-position {
+  position: absolute;
+  margin-left: 10px;
+  margin-top: 3px;
+}
+
+.plane-position {
+  position: absolute;
+  margin-left: 3px;
+  margin-top: -4px;
+}
+
+.day-image-position {
+  position: absolute;
+  margin-left: -6px;
+  margin-top: 0px;
+  transform: scale(0.82);
 }
