@@ -1,0 +1,141 @@
+{
+  "forecasts":
+  [
+    {
+      "id": 1,
+      "headerText": "Stay",
+      "section": 1,
+      "selected": false,
+      "data":       [
+        {
+          "days": 1,
+          "daysImageUrl": null,
+          "daysColor": "#59b2b2",
+          "mainText": "Lennox Hill Hospital",
+          "textImageUrl": null,
+          "subText": "(non contracted)",
+          "barColor": "#a5d1d1"
+        },
+        {
+          "days": 2,
+          "daysImageUrl": null,
+          "daysColor": "#99cdcd",
+          "mainText": "Possible mechanical ventilation, possible bronchoscopy, IV antibiotics",
+          "textImageUrl": null,
+          "subText": "",
+          "barColor": "#59b2b2"
+        },
+        {
+          "days": 6,
+          "daysImageUrl": null,
+          "daysColor": "#f5a623",
+          "mainText": "Fly out FLY ",
+          "textImageUrl": null,
+          "subText": "",
+          "barColor": "#f3cb8a"
+        },
+        {
+          "days": 45,
+          "daysImageUrl": null,
+          "daysColor": "#d0021b",
+          "mainText": "3% of pneumonia cases will spend upwards of 45 days admitted",
+          "textImageUrl": null,
+          "subText": "",
+          "barColor": "#e07986"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "headerText": "Repatriate",
+      "section": 2,
+      "selected": true,
+      "data":       [
+        {
+          "days": 1,
+          "daysImageUrl": null,
+          "daysColor": "#59b2b2",
+          "mainText": "Lennox Hill Hospital",
+          "textImageUrl": null,
+          "subText": "(non contracted)",
+          "barColor": "#a5d1d1"
+        },
+        {
+          "days": 2,
+          "daysImageUrl": null,
+          "daysColor": "#99cdcd",
+          "mainText": "Possible mechanical ventilation, possible bronchoscopy, IV antibiotics",
+          "textImageUrl": null,
+          "subText": "",
+          "barColor": "#59b2b2"
+        },
+        {
+          "days": 6,
+          "daysImageUrl": null,
+          "daysColor": "#f5a623",
+          "mainText": "Fly out FLY ",
+          "textImageUrl": null,
+          "subText": "",
+          "barColor": "#f3cb8a"
+        },
+        {
+          "days": 45,
+          "daysImageUrl": null,
+          "daysColor": "#d0021b",
+          "mainText": "3% of pneumonia cases will spend upwards of 45 days admitted",
+          "textImageUrl": null,
+          "subText": "",
+          "barColor": "#e07986"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "headerText": "Transfer",
+      "section": 3,
+      "selected": false,
+      "data":       [
+        {
+          "days": 1,
+          "daysImageUrl": null,
+          "daysColor": "#59b2b2",
+          "mainText": "Lennox Hill Hospital",
+          "textImageUrl": null,
+          "subText": "(non contracted)",
+          "barColor": "#a5d1d1"
+        },
+        {
+          "days": 2,
+          "daysImageUrl": null,
+          "daysColor": "#99cdcd",
+          "mainText": "Possible mechanical ventilation, possible bronchoscopy, IV antibiotics",
+          "textImageUrl": null,
+          "subText": "",
+          "barColor": "#59b2b2"
+        },
+        {
+          "days": 6,
+          "daysImageUrl": null,
+          "daysColor": "#f5a623",
+          "mainText": "Fly out FLY ",
+          "textImageUrl": null,
+          "subText": "",
+          "barColor": "#f3cb8a"
+        },
+        {
+          "days": 45,
+          "daysImageUrl": null,
+          "daysColor": "#d0021b",
+          "mainText": "3% of pneumonia cases will spend upwards of 45 days admitted",
+          "textImageUrl": null,
+          "subText": "",
+          "barColor": "#e07986"
+        }
+      ]
+    }
+  ],
+  "search": [
+    {"name": "diag", "forecast": 1},
+    {"name": "yada", "forecast": 2}
+  ]
+}
